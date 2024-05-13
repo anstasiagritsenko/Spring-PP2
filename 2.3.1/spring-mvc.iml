@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <!-- Компонент FacetManager содержит настройки для различных аспектов проекта. -->
+  <component name="FacetManager">
+    <!-- Фасет "Web" используется для настройки веб-приложения. -->
+    <facet type="web" name="Web">
+      <configuration>
+        <!-- Указываются корневые пути для веб-ресурсов. -->
+        <webroots>
+          <!-- Здесь определяется корневой путь для веб-ресурсов, указывается директория src/webapp. -->
+          <root url="file://$MODULE_DIR$/src/webapp" relative="/" />
+        </webroots>
+        <!-- Указываются корневые пути для исходного кода. -->
+        <sourceRoots>
+          <!-- Здесь указывается корневой путь для исходных файлов Java, расположенных в src/main/java. -->
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <!-- Здесь указывается корневой путь для ресурсов, расположенных в src/main/resources. -->
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <!-- Здесь указывается корневой путь для сгенерированных исходных файлов аннотаций,
+               расположенных в target/generated-sources/annotations. -->
+          <root url="file://$MODULE_DIR$/target/generated-sources/annotations" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <!-- Фасет "Spring" используется для интеграции с фреймворком Spring. -->
+    <facet type="Spring" name="Spring">
+      <!-- Здесь пока отсутствуют дополнительные конфигурационные параметры. -->
+      <configuration />
+    </facet>
+  </component>
+</module>
